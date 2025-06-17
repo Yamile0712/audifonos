@@ -1,0 +1,246 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor-principal {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(46, 45, 45);
+}
+
+.img {
+    width: 47%;
+}
+
+.texto-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+    margin: 3%;
+    padding: 2%;
+}
+
+.tiluto-audifonos {
+    font-size: 95px;
+    background: linear-gradient(#1073BA, #00DA55);
+    background-clip: text;
+    color: transparent;
+}
+
+.precio span {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.section-content1 {
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    margin: 5%;
+}
+
+.pepe {
+    font-size: 25px;
+    color: #1073BA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pepe2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5%;
+}
+
+.iconos {
+    width: 15%;
+}
+
+.pepe3 {
+    font-size: 35px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10%;
+}
+
+.pepe4 {
+    font-size: 18px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3%;
+
+}
+
+.section-content2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-image: url(../multimedia/imagen-mujer.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.lola {
+    background-color: transparent;
+    width: 50%;
+    background-color: #1073BA;
+}
+
+.pepe5 {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5%;
+    background: linear-gradient(#1073BA, #00DA55);
+    background-clip: text;
+    color: transparent;
+}
+
+.section-content4 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-image: url(../multimedia/mujer-dos.webp);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: left;
+    justify-content: end;
+}
+
+.pepe6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding: 5%;
+}
+
+.pepe7 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 5%;
+}
+
+.lola3 {
+    width: 50%;
+    align-items: start;
+    justify-content: left;
+}
+
+.cuadros-audifonos {
+    display: flex;
+    gap: 1rem;
+}
+
+.recuadros {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recuadro1 {
+    border-radius: 2rem 2rem 2rem 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(85, 85, 75, 0.288);
+    padding: 5%;
+    margin: 3%;
+    display: flex;
+}
+
+.recuadro3 {
+    width: 47%;
+    background-color: #1073BA;
+    border-radius: 2rem 2rem 2rem 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+.recuadro-img {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+
+.recuadro-img2 {
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    width: 50%;
+}
+
+.img-audifono1 {
+    width: 50%;
+}
+
+.img-audifono2{
+width: 90%;
+}
+
+.img-audifonos3 {
+    width: 50%;
+}
+
+.text1 {
+    width: 50%;
+    color: #1073BA;
+    font-size: 20px;
+}
+
+.text2 {
+    justify-items: center;
+    align-content: center;
+    width: 50%;
+    color: aliceblue;
+}
+
+.text2 h2 {
+    margin: 5%;
+    font-size: 40px;
+   
+}
+
+.text2 p {
+    margin: 10%;
+}
+
+.precio-audifonos {
+    font-size: 40px;
+    color: #1073BA;
+}
+
+.precio-audifonos2 {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.formulario input[type="submit"] {
+    width: 95%;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #1073BA;
+    color: #ffffff;
+}
+
+.formulario input[type="text"] {
+    width: 90%;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color: #1073BA;
+    margin: 4%;
+}
