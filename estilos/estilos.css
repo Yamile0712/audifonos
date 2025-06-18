@@ -223,7 +223,7 @@
 .formulario input[type="submit"] {
     width: 95%;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: #1073BA;
     color: #ffffff;
 }
