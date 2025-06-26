@@ -252,3 +252,24 @@
     color: #1073BA;
     margin: 4%;
 }
+
+/*media quers*/
+@media(max-width:960px){
+.intro{
+width: 100%;
+}
+
+.derechos{
+margin: 30%;
+}
+
+.pepe3{
+padding: 5%;
+}
+}
+
+@media(max-width: 580px){
+.intro{
+width: 100%;
+}
+}
